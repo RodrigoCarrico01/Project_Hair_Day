@@ -3,6 +3,9 @@
 //usar o modo estrito
 "use strict"
 
+//Importar a config do dayjs
+import "./libs/dayjs.js"
+
 //Importar o css
 import "./styles/global.css"
 import "./styles/form.css"
