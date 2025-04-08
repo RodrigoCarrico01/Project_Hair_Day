@@ -1,4 +1,9 @@
 {
-  "schedules":[
+  "schedules": [
+    {
+      "id": 1744100627927,
+      "name": "Rodrigo Martins",
+      "when": "2025-04-08T19:00:00.000Z"
+    }
   ]
 }

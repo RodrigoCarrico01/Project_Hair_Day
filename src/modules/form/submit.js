@@ -1,5 +1,7 @@
 import dayjs from 'dayjs'
 
+import {scheduleNew} from "../../services/schedule-new.js"
+
 const form = document.querySelector('form');
 const clientName = document.getElementById('client')
 const selectedDate = document.getElementById('date')
@@ -12,7 +14,7 @@ selectedDate.value = inputToday
 //Define a data minima como sendo a data atual
 selectedDate.min = inputToday
 
-form.onsubmit = (event) => {
+form.onsubmit = async (event) => {
   //Previne o comportamento padrão de recarregar a página
   event.preventDefault()
 
@@ -40,11 +42,10 @@ form.onsubmit = (event) => {
     //cria um id
     const id = new Date().getTime()
 
-    console.log({
+    await scheduleNew({
       id,
       name,
-      when: when.format(),
-      hour: when.format("HH:mm"),
+      when,
     })
   }catch(error){
     alert("Não foi possível realizar o agendamento.")
