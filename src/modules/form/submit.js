@@ -43,8 +43,6 @@ form.onsubmit = async (event) => {
     //cria um id
     const id = new Date().getTime()
 
-    id.toString()
-
     await scheduleNew({
       id,
       name,
