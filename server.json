@@ -2,23 +2,8 @@
   "schedules": [
     {
       "id": "1744100627927",
-      "name": "Rodrigo Martins",
+      "name": "Valdemir Filho",
       "when": "2025-04-08T19:00:00.000Z"
-    },
-    {
-      "id": "1744103430991",
-      "name": "João da Silva",
-      "when": "2025-04-09T13:00:00.000Z"
-    },
-    {
-      "id": "1744103493601",
-      "name": "Bruno Gomes",
-      "when": "2025-04-09T14:00:00.000Z"
-    },
-    {
-      "id": "1744103738905",
-      "name": "Gilberto James",
-      "when": "2025-04-24T20:00:00.000Z"
     }
   ]
 }
