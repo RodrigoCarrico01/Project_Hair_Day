@@ -30,7 +30,7 @@ Este projeto, desenvolvido em aula, faz parte da trilha Full-Stack, promovido pe
 
 ## Projeto
 
-- [PROJECTO]([github](https://project-hair-day.vercel.app/))
+- [PROJECTO](https://project-hair-day.vercel.app/)
 
 
 ## Licença
